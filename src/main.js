@@ -4,7 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import '../lib/mui-master/dist/css/mui.min.css'
-import '../lib/mui-master/dist/js/mui.min.js'
+import '../lib/mui-master/examples/hello-mui/css/icons-extra.css'
+// import '../lib/mui-master/dist/js/mui.min.js'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
