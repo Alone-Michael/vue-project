@@ -3,15 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import '../lib/mui-master/dist/css/mui.min.css'
+import mui from '../lib/mui-master/dist/js/mui.js'
+// import '../lib/mui-master/dist/js/mui.js'
+import '../lib/mui-master/dist/css/mui.css'
 import '../lib/mui-master/examples/hello-mui/css/icons-extra.css'
-// import '../lib/mui-master/dist/js/mui.min.js'
-Vue.config.productionTip = false
 
+Vue.config.productionTip = false
+Vue.prototype.mui = mui
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
 })
